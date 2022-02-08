@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Werder Vigano</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="basic-style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="row m-0">
+    <div class="container-xl">
+      <div class="row header-container">
+        <div class="col-6 col-md-4 col-lg-4 logo-container">
+          <a href="index.html"><img class="logo" src="images/logo.svg"/></a>
+        </div>
+        <div class="col-6 col-md-8 col-lg-8 nav-column">
+          <div class="nav-container navbar-light navbar-expand-lg p-0">
+            <li class="language-button floatRight" onclick="language_dropdown_function()">
+              <div>
+                <div>
+                  <div class="en floatLeft">EN</div>
+                  <div class="grid ml-half text-lightblue floatLeft"><i class="fas fa-sort-down"></i></div>
+                  <div class="language-dropdown">
+                    <div class=""><a href="#">EN</a></div>
+                    <div class=""><a href="#">DE</a></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <img data-toggle="collapse" data-target="#navbarSupportedContent" class="cross" src="images/cross.svg"/>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-list">
+                  <a class="navigation-link" href="index.html">About Us</a>
+                </li>
+                <li class="nav-list">
+                  <a class="navigation-link" href="expertise.html">Expertise</a>
+                </li>
+                <li class="nav-list">
+                  <a class="navigation-link active" href="team.html">Team</a>
+                </li>
+                <li class="nav-list">
+                  <a class="navigation-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row banner-row">
+        <div class="col-md-12">
+          <img class="mw-100" src="images/banner-final.jpg" alt="">
+        </div>
+      </div>
+      <div class="row pt-2 pb-2">
+        <div class="col-md-12">
+          <h1 class="text-center text-darkgray f-900">Our Experts</h1>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="experts">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="justify-between text-gray">
+                <div class="mr-1 team-member">
+                  <a href="team-details.html">
+                    <div class="team-member-image-container">
+                      <img class="w-100" src="images/michael-werder.png"/>
+                    </div>
+                    <p class="pt-half text-center">Michael Werder</p>
+                  </a>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/adriano-vigano.png"/>
+                  </div>
+                  <p class="pt-half text-center">Adriano Vigano</p>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/unknown.png"/>
+                  </div>
+                  <p class="pt-half text-center">Claudio Kerber</p>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/kai-peter-uhlig.png"/>
+                  </div>
+                  <p class="pt-half text-center">Kai-Peter Uhlig</p>
+                </div>
+                <div class="team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/sven-luscher.png"/>
+                  </div>
+                  <p class="pt-half text-center">Sven Luscher</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-md-12">
+              <div class="justify-between text-gray">
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/matthias-burge.png"/>
+                  </div>
+                  <p class="pt-half text-center">Matthias Burge</p>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/andreas-mikos.png"/>
+                  </div>
+                  <p class="pt-half text-center">Andreas Mikos</p>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/unknown.png"/>
+                  </div>
+                  <p class="pt-half text-center">Alain Ballmer</p>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/erwin-zimmerli.png"/>
+                  </div>
+                  <p class="pt-half text-center">Erwin Zimmerli</p>
+                </div>
+                <div class="team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/manfred-rehbinder.png"/>
+                  </div>
+                  <p class="pt-half text-center">Manfred Rehbinder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-md-12">
+              <div class="justify-flex-start text-gray">
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/thomas-signer.png"/>
+                  </div>
+                  <p class="pt-half text-center">Thomas Signer</p>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/saskia-bongard.png"/>
+                  </div>
+                  <p class="pt-half text-center">Saskia Bongard</p>
+                </div>
+                <div class="mr-1 team-member">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/carola-bertolini.png"/>
+                  </div>
+                  <p class="pt-half text-center">Carola Bertolini</p>
+                </div>
+                <div class="mr-1 team-member opacity-0">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/carola-bertolini.png"/>
+                  </div>
+                  <p class="pt-half text-center">Carola Bertolini</p>
+                </div>
+                <div class="mr-1 team-member opacity-0">
+                  <div class="team-member-image-container">
+                    <img class="w-100" src="images/carola-bertolini.png"/>
+                  </div>
+                  <p class="pt-half text-center">Carola Bertolini</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="experts-mobile">
+          <div class="row text-gray justify-evenly">
+            <div class="col-6 pl-1 pr-half text-center">
+              <a href="team-details.html">
+                <img class="w-100" src="images/michael-werder.png"/>
+                <p class="pt-half">Michael Werder</p>
+              </a>
+            </div>
+            <div class="col-6 pl-half pr-1 text-center">
+              <img class="w-100" src="images/adriano-vigano.png"/>
+              <p class="pt-half">Adriano Vigano</p>
+            </div>
+          </div>
+          <div class="row text-gray justify-evenly">
+            <div class="col-6 pl-1 pr-half text-center">
+              <img class="w-100" src="images/unknown.png"/>
+              <p class="pt-half">Claudio Kerber</p>
+            </div>
+            <div class="col-6 pl-half pr-1 text-center">
+              <img class="w-100" src="images/kai-peter-uhlig.png"/>
+              <p class="pt-half">Kai-Peter Uhlig</p>
+            </div>
+          </div>
+          <div class="row text-gray justify-evenly">
+            <div class="col-6 pl-1 pr-half text-center">
+              <img class="w-100" src="images/sven-luscher.png"/>
+              <p class="pt-half">Sven Luscher</p>
+            </div>
+            <div class="col-6 pl-half pr-1 text-center">
+              <img class="w-100" src="images/matthias-burge.png"/>
+              <p class="pt-half">Matthias Burge</p>
+            </div>
+          </div>
+          <div class="row pl-1 pr-half text-gray justify-evenly">
+            <div class="col-6 text-center">
+              <img class="w-100" src="images/andreas-mikos.png"/>
+              <p class="pt-half">Andreas Mikos</p>
+            </div>
+            <div class="col-6 pl-half pr-1 text-center">
+              <img class="w-100" src="images/unknown.png"/>
+              <p class="pt-half">Alain Ballmer</p>
+            </div>
+          </div>
+          <div class="row text-gray justify-evenly">
+            <div class="col-6 pl-1 pr-half text-center">
+              <img class="w-100" src="images/erwin-zimmerli.png"/>
+              <p class="pt-half">Erwin Zimmerli</p>
+            </div>
+            <div class="col-6 pl-half pr-1 text-center">
+              <img class="w-100" src="images/manfred-rehbinder.png"/>
+              <p class="pt-half">Manfred Rehbinder</p>
+            </div>
+          </div>
+          <div class="row text-gray justify-evenly">
+            <div class="col-6 pl-1 pr-half text-center">
+              <img class="w-100" src="images/thomas-signer.png"/>
+              <p class="pt-half">Thomas Signer</p>
+            </div>
+            <div class="col-6 pl-half pr-1 text-center">
+              <img class="w-100" src="images/saskia-bongard.png"/>
+              <p class="pt-half">Saskia Bongard</p>
+            </div>
+          </div>
+          <div class="row text-gray justify-evenly">
+            <div class="col-6 pl-1 pr-half text-center">
+              <img class="w-100" src="images/carola-bertolini.png"/>
+              <p class="pt-half">Carola Bertolini</p>
+            </div>
+            <div class="col-6 pl-1 pr-half text-center opacity-0">
+              <img class="w-100" src="images/carola-bertolini.png"/>
+              <p class="pt-half">Carola Bertolini</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+<script>
+</script>
+</html>

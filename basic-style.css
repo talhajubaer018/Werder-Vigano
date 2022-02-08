@@ -1,0 +1,412 @@
+a:hover {
+    text-decoration: none;
+}
+a {
+    color: #828282;
+}
+.transform-x-8 {
+    transform: translateX(-8px);
+}
+
+.transform-y-50 {
+    transform: translateY(50%);
+}
+
+.line-height-one-point-three {
+    line-height: 1.3;
+}
+.opacity-0 {
+    opacity: 0;
+}
+.justify-flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+.justify-around {
+    display: flex;
+    justify-content: space-around;
+}
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+.justify-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.border-bottom-1-lightgray {
+    border-bottom: 1px solid #CECECE;
+}
+.border-bottom-1-black {
+    border-bottom: 1px solid black;
+}
+
+.border-3-lightblue {
+    border: 3px solid #0070BE;
+}
+.fs-1 {
+    font-size: 1em;
+}
+.fs-oh {
+    font-size: 1.25em;
+}
+.fs-2 {
+    font-size: 2em;
+}
+.fs-th {
+    font-size: 2.5em;
+}
+.fs-3 {
+    font-size: 3em;
+}
+.fs-3pf {
+    font-size: 3.5em;
+}
+.fs-5 {
+    font-size: 5em;
+}
+.inline-block {
+    display: inline-block;
+}
+.flex {
+    display: flex;
+}
+.inline-flex {
+    display: inline-flex;
+}
+.grid {
+    display: grid;
+}
+.grid-center {
+    display: grid;
+    place-items: center;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-green {
+    background-color: #7bb942;
+}
+.bg-gray {
+    background-color: #828282;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-lightblue {
+    background-color: #0070BE;
+}
+.bg-darkblue {
+    background-color: #005696;
+}
+.bg-darkgray {
+    background-color: #424244;
+}
+.text-darkgray {
+    color: #424244;
+}
+.text-lightblue {
+    color: #0070BE;
+}
+.text-darkblue {
+    color: #005696;
+}
+.text-white {
+    color: white;
+}
+.text-green {
+    color: #7bb942;
+}
+.text-gray {
+    color: #828282;
+}
+.hover-darkgray:hover {
+    color: #424244;
+}
+.w-20 {
+    width: 20%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-90 {
+    width: 90%;
+}
+.w-95 {
+    width: 95%;
+}
+.w-100 {
+    width: 100%;
+}
+.mw-100 {
+    max-width: 100%;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.clearBoth {
+    clear: both;
+}
+.underline {
+    text-decoration: underline;
+}
+.italic {
+    font-style: italic;
+}
+.regular {
+    font-weight: 400;
+}
+.bold {
+    font-weight: bold;
+}
+.f-900 {
+    font-weight: 900;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.p-0 {
+    padding: 0rem !important;
+}
+.p-half {
+    padding: 0.5rem !important;
+}
+.p-1 {
+    padding: 1rem !important;
+}
+.p-oh {
+    padding: 1.5rem !important
+}
+.p-2 {
+    padding: 2rem !important;
+}
+.p-3 {
+    padding: 3rem !important;
+}
+.p-4 {
+    padding: 4rem !important;
+}
+.pt-0 {
+    padding-top: 0 !important;
+}
+.pt-half {
+    padding-top: 0.5rem !important;
+}
+.pt-1 {
+    padding-top: 1rem !important;
+}
+.pt-oh {
+    padding-top: 1.5rem !important;
+}
+.pt-2 {
+    padding-top: 2rem !important;
+}
+.pt-3 {
+    padding-top: 3rem !important;
+}
+.pt-4 {
+    padding-top: 4rem !important;
+}
+.pb-0 {
+    padding-bottom: 0rem !important;
+}
+.pb-half {
+    padding-bottom: 0.5rem !important;
+}
+.pb-1 {
+    padding-bottom: 1rem !important;
+}
+.pb-2 {
+    padding-bottom: 2rem !important;
+}
+.pb-3 {
+    padding-bottom: 3rem !important;
+}
+.pb-4 {
+    padding-bottom: 4rem !important;
+}
+.pl-0 {
+    padding-left: 0 !important;
+}
+.pl-half {
+    padding-left: 0.5rem !important;
+}
+.pl-1 {
+    padding-left: 1rem !important;
+}
+.pl-2 {
+    padding-left: 2rem !important;
+}
+.pl-3 {
+    padding-left: 3rem !important;
+}
+.pl-4 {
+    padding-left: 4rem !important;
+}
+.pr-half {
+    padding-right: 0.5rem !important;
+}
+.pr-1 {
+    padding-right: 1rem !important;
+}
+.pr-oh {
+    padding-right: 1.5rem !important;
+}
+.pr-2 {
+    padding-right: 2rem !important;
+}
+.pr-3 {
+    padding-right: 3rem !important;
+}
+.pr-4 {
+    padding-right: 4rem !important;
+}
+.m-auto {
+    margin: auto;
+}
+.m-0 {
+    margin: 0rem !important;
+}
+.m-half {
+    margin: 0.5rem !important;
+}
+.m-1 {
+    margin: 1rem !important;
+}
+.m-oh {
+    margin: 1.5rem !important
+}
+.m-2 {
+    margin: 2rem !important;
+}
+.m-3 {
+    margin: 3rem !important;
+}
+.m-4 {
+    margin: 4rem !important;
+}
+.mt-0 {
+    margin-top: 0 !important;
+}
+.mt-1 {
+    margin-top: 1rem !important;
+}
+.mt-2 {
+    margin-top: 2rem !important;
+}
+.mt-3 {
+    margin-top: 3rem !important;
+}
+.pt-4 {
+    padding-top: 4rem !important;
+}
+.mb-0 {
+    margin-bottom: 0rem !important;
+}
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.mb-2 {
+    margin-bottom: 2rem !important;
+}
+.mb-3 {
+    margin-bottom: 3rem !important;
+}
+.mb-4 {
+    margin-bottom: 4rem !important;
+}
+.ml-half {
+    margin-left: 0.5rem !important;
+}
+.ml-1 {
+    margin-left: 1rem !important;
+}
+.ml-2 {
+    margin-left: 2rem !important;
+}
+.ml-3 {
+    margin-left: 3rem !important;
+}
+.ml-4 {
+    margin-left: 4rem !important;
+}
+.mr-1 {
+    margin-right: 1rem !important;
+}
+.mr-2 {
+    margin-right: 2rem !important;
+}
+.mr-3 {
+    margin-right: 3rem !important;
+}
+.mr-4 {
+    margin-right: 4rem !important;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .fs-1 {
+        font-size: 1em;
+    }
+    .fs-oh {
+        font-size: 1.1em;
+    }
+    .fs-2 {
+        font-size: 1.7em;
+    }
+    .fs-th {
+        font-size: 2.2em;
+    }
+    .fs-3 {
+        font-size: 2.7em;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .fs-1 {
+        font-size: 0.9em;
+    }
+    .fs-oh {
+        font-size: 1em;
+    }
+    .fs-2 {
+        font-size: 1.4em;
+    }
+    .fs-th {
+        font-size: 1.9em;
+    }
+    .fs-3 {
+        font-size: 2.4em;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .fs-1 {
+        font-size: 0.8em;
+    }
+    .fs-oh {
+        font-size: 1em;
+    }
+    .fs-2 {
+        font-size: 1.5em;
+    }
+    .fs-th {
+        font-size: 2em;
+    }
+    .fs-3 {
+        font-size: 2.5em;
+    }
+}
